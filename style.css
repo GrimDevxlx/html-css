@@ -46,5 +46,29 @@ a {
 a:hover {
   color: grey;
   text-decoration: underline;
+  text-decoration-color: rgb(181, 181, 181);
   text-underline-offset: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+.logo:hover {
+  cursor: default;
+}
+/*BURGER SECTION*/
+#hburger-nav {
+  display: none;
+}
+.hburger-menu {
+  position: relative;
+  display: inline-block;
+}
+.hburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
 }
