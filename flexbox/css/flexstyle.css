@@ -12,5 +12,53 @@
 }
 
 .nav {
-  
+  background-color: cyan;
+  height: 120px;
+  color: white;
 }
+.footer {
+  background: black;
+  height: 80px;
+  color: white;
+}
+
+.article {
+  text-align: left;
+  background: cyan;
+  height: 300px;
+  font-size: 24px;
+}
+.ads1 {
+  background: red;
+  color: white;
+}
+.ads2 {
+background: red;
+color: white;
+}
+
+@media all and (min-width: 800px){
+  .article {
+    flex: 3;
+  }
+  .ads1 {
+    order: 1;
+  }
+
+  .ads2 {
+    order: 2;
+  }
+
+  .article{
+    order: 2;
+  }
+  .footer{
+    order: 4;
+  }
+}
+
+  @media all and (min-width: 600px){
+    .aside {
+      flex: 1;
+    }
+  }
